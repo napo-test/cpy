@@ -4,6 +4,7 @@
 
 ## Why
 
+
 - Fast by using streams.
 - Resilient by using [graceful-fs](https://github.com/isaacs/node-graceful-fs).
 - User-friendly by accepting [globs](https://github.com/sindresorhus/globby#globbing-patterns) and creating non-existent destination directories.
