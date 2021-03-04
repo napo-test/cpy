@@ -1,6 +1,6 @@
 meta: # These apply to every branch
   languages:
-    - JavaScript
+    - java
   branches_exclude:
     - main
     - develop
