@@ -3,7 +3,7 @@ meta: # These apply to every branch
     - javascript
   branches_exclude:
     - main
-		- develop
+    - develop
   paths_exclude:
     - vendors/**
   metrics:
