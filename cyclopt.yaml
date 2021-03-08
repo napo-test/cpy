@@ -4,6 +4,7 @@ meta: # These apply to every branch
   branches_exclude:
     - main
     - develop
+    - bla
   paths_exclude:
     - vendors/**
   metrics:
