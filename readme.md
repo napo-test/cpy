@@ -1,6 +1,6 @@
 # js repo
 
-> Copy files
+> Copy files?
 
 ## Why
 
