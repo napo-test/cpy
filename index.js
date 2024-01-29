@@ -33,6 +33,7 @@ const preprocessDestinationPath = (source, destination, options) => {
 	if (options.parents) {
 		return path.join(destination, dirname, basename);
 	}
+	const dirname = path.dirname(source);
 
 	return path.join(destination, basename);
 };
