@@ -14,7 +14,7 @@ const defaultOptions = {
 	ignoreJunk: true
 };
 
-const preprocessSourcePath = (source, options) => options.cwd ? path.resolve(options.cwd, source) : source;
+const preprocessSourcePath = (source, options, a) => options.cwd ? path.resolve(options.cwd, source) : source;
 
 const preprocessDestinationPath = (source, destination, options) => {
 	let basename = path.basename(source);
